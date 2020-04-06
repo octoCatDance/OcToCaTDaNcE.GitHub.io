@@ -1,0 +1,604 @@
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.3;
+
+    a {
+        text-decoration: none;
+        color: rgb(24, 2, 2);
+    }
+
+    .header-1 {
+        background-color: yellow;
+        position: fixed;
+        width: 100%;
+        height: 75px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        
+        .head-div {
+            display: flex;
+            align-items: center;
+            margin: 0 auto 0 auto;
+            padding: 10px 0;
+            width: 90%;
+
+            .code {
+                // margin-right: 20px;
+            }
+
+            nav {
+                
+                .nav-menu {
+                    list-style-type: none;
+                    display: flex;
+
+                    li {
+                        margin-right: 16px;
+
+                        &:hover {
+                            background-color: blue;
+                            padding: 5px;
+                            border-radius: 50%;
+                            transition: 1s;
+                            transform: scale(1.2); 
+                            border: 1px dotted red;
+                        }
+
+                        a:hover {
+                            transition: 1s;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .border-wrap {
+                position: relative;
+                padding: 3px;
+                background: linear-gradient(to right, red, purple);
+                margin-right: auto;
+                font-family: 'Ubuntu', sans-serif;
+
+            h2 {
+                margin: 0;
+                padding: 5px;
+                background-color: white;
+            }
+        }
+        }
+    }
+
+    .header-2 {
+        width: 90%;
+        margin: 120px auto 0 auto;
+        
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+
+        .computer {
+            display: block;
+            margin: 0 auto 0 auto;
+            width: 170px;
+            height: 170px;
+        }
+    }
+
+    main {
+
+        #projects {
+            width: 1px;
+            height: 1px;
+            background-color: white;
+        }
+
+        .intro {
+            background-color: purple;
+            padding: 30px 0 150px 0;
+            .intro-text {
+                width: 50%;
+                margin: 0 auto 0 auto;
+                color: white;
+
+                h3 {
+                    color: sandybrown;
+                }
+            }
+        }
+
+        .workflow {
+            margin-top: -100px;
+            .what-i-do {
+                width: 70%; 
+                margin: 0 auto 0 auto;
+                border: 2px solid lightblue;
+                border-radius: 30px;
+                margin-bottom: 40px;
+                // padding-bottom: 38px;
+                background-color: white;
+
+                p {
+                    width: 80%;
+                    margin: 0 auto 0 auto;
+                    margin-bottom: 50px;
+                }
+
+                .work-icon {
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 50px;
+                }
+
+                .knowledge {
+                    list-style-type: none;
+                    padding: 0;
+                    li {
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+
+            .keyframes {
+                display: flex;
+                width: 80%;
+                height: 130px;
+                margin: 0 auto;
+                align-items: flex-end;
+                justify-content: space-around;
+
+                #a {
+                    width: 30px;
+                    height: 30px;
+                    background-color: red;
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+                #b {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(55, 0, 255);
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 1.3s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+                #c {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(21, 255, 0);
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 1.7s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+                #d {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(255, 0, 242);
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+                #e {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(255, 238, 0);
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+                #f {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgb(0, 217, 255);
+                    border-radius: 50%;
+                    position: relative;
+
+                    animation-name: bounce;
+                    animation-duration: 1.4s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes bounce {
+                    0% {
+                        top: 0px;
+                    }
+                    50% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 0px;
+                    }
+                }
+            }
+        }
+
+        .portfolio {
+            margin-top: 100px;
+
+            h2 {
+                text-decoration: underline;
+            }
+            p {
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            .project {
+                position: relative;
+                width: 70%;
+                height: 300px;
+                margin: 0 auto 0 auto;
+                border-radius: 12px 12px 0 0;
+                box-sizing: border-box;
+                
+
+                .project-image {
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 12px 12px 0 0;
+
+                }
+
+                .overlay {
+                    position: absolute;
+                    align-items: center;
+                    box-sizing: border-box;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    border-radius: 12px 12px 0 0;
+
+                    .overlay-content {
+                        display: flex;
+                        align-items: center;
+                        width: 50%;
+                        margin: 85px auto 0 auto;
+                        position: absolute;
+                        left: 25%;
+
+                        .overlay-image {
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        h3 {
+                            margin-left: 10px;
+                            background-color: rgba(224, 255, 49, 0.5);
+                            padding: 3px;
+                            border-radius: 10px;
+                        }
+
+                    }
+
+                    
+                }
+
+                .pop-up {
+                    position: absolute;
+                    box-sizing: border-box;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                    background: transparent;
+                    border-radius: 12px 12px 0 0;
+                    color: blanchedalmond;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-around;
+
+                    h3 {
+                        margin-bottom: 40px;
+                        border: 2px solid white;
+                        border-radius: 50%;
+                        padding: 15px;
+                    }
+
+                    .site {
+                        background-color: rgb(0, 0, 0);
+                        color: white;
+                        transition: 1s;
+
+                        &:hover {
+                            transform: scale(1.05);
+                            border-color: red;
+                            cursor: pointer;
+                        }
+
+                        .anchor {
+                            color: white;
+                            text-decoration: none;
+                            padding: 20px 0;
+
+                            &:hover {
+                                color: blue;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .project-1 {
+                margin-top: 40px;
+
+
+                .overlay-1 {
+                    background-color: rgba(255, 68, 68, .5);        
+                }
+            }
+
+            .project-2 {
+                
+
+                .overlay-2 {
+                    background-color: rgba(55, 90, 243, 0.5);        
+
+                    .project-description {
+                        margin-top: 15px;
+                    }
+
+                }
+            }
+
+            .project-3 {
+
+                .overlay-3 {
+                    background-color: rgba(21, 255, 0, 0.5);        
+
+                    .project-description {
+                        margin-top: 15px;
+                        // width: 50%;
+                    }
+
+                }
+            }
+
+            .project-4 {
+
+                .overlay-4 {
+                    background-color: rgba(240, 52, 240, 0.5);        
+                }
+            }
+
+            .project-description {
+                background-color: rgb(208, 255, 0);
+                border-radius: 0 0 10px 10px;
+                margin: 0 auto 50px auto;
+                width: 70%;
+                height: auto;
+                // box-sizing: border-box;
+
+                p {
+                    margin: 0;
+                    padding: 5px 0;
+                    width: 95%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .footer-1 {
+        height: 89px;
+        background-color: purple;
+        display: flex;
+        align-items: center;
+
+        .footer-container {
+            width: 95%;
+            display: flex;
+            margin: 0 auto 0 auto;
+
+            h5 {
+                margin-right: auto;
+                color: seashell;
+            }
+    
+            .social-media {
+                display: flex;
+                align-items: center;
+    
+                .soc-icn {
+                    width: 50px;
+                    height: 50px;
+                    margin-left: 15px;
+
+                    &:hover {
+                        transition: 1.3s;
+                        transform: scale(1.2) rotate(180deg);
+                    }
+                }
+
+                .soc-icn-gh:hover {
+                    transform: rotate(-180deg);
+                }
+                
+            }
+        }
+    }
+
+    .footer-2 {
+        background-color: rgb(241, 34, 241);
+        // position: fixed;
+        bottom: 0;
+        padding: 30px 0;
+
+        h3 {
+            margin: 0;
+            //padding: 30px 0;
+            color: skyblue;
+            
+
+            &:hover {
+                transition: 1s;
+                text-shadow: 10px -20px wheat;
+                transform: scale(1.2);
+                //margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .header-1 {
+
+        .head-div {
+
+            .nav {
+                
+                .nav-menu {
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        margin-right: 50px;
+                        transition: 1s;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            color: rebeccapurple;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+
+        .workflow {
+            display: flex;
+            width: 80%;
+            margin: 0 auto 0 auto;
+
+            #what-i-do-1 {
+                border-radius: 30px 0 0 30px;
+                margin-right: 5px;
+                position: relative;
+
+                .tools {
+                    margin-top: 68.5px;
+                }
+
+                .keyframes {
+                    position: absolute;
+                    bottom: 0;
+                    left: 10%;
+                }
+            }
+
+            #what-i-do-2 {
+                border-radius: 0 30px 30px 0;
+                margin-left: 5px;
+            }
+        }
+
+        .portfolio {
+
+            .portfolio-projects {
+                display: flex;
+                flex-wrap: wrap;
+                min-height: 100%;
+                margin-top: 50px;
+                
+                .project101 {
+                    flex-basis: calc(100% / 2);
+                    width: 100px;
+
+                    .project {
+                        width: 80%;
+                    }
+                    .project-description {
+                        width: 80%;
+                        height: 82px;
+                    }
+                }
+
+                .project-1 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,480 @@
+body {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 1.3;
+}
+body a {
+  text-decoration: none;
+  color: #180202;
+}
+body .header-1 {
+  background-color: yellow;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+body .header-1 .head-div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  padding: 10px 0;
+  width: 90%;
+}
+body .header-1 .head-div nav .nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+body .header-1 .head-div nav .nav-menu li {
+  margin-right: 16px;
+}
+body .header-1 .head-div nav .nav-menu li:hover {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 1s;
+  transform: scale(1.2);
+  border: 1px dotted red;
+}
+body .header-1 .head-div nav .nav-menu li a:hover {
+  transition: 1s;
+  color: white;
+}
+body .header-1 .head-div .border-wrap {
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(to right, red, purple);
+  margin-right: auto;
+  font-family: "Ubuntu", sans-serif;
+}
+body .header-1 .head-div .border-wrap h2 {
+  margin: 0;
+  padding: 5px;
+  background-color: white;
+}
+body .header-2 {
+  width: 90%;
+  margin: 120px auto 0 auto;
+}
+body .header-2 .avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+body .header-2 .computer {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 170px;
+  height: 170px;
+}
+body main #projects {
+  width: 1px;
+  height: 1px;
+  background-color: white;
+}
+body main .intro {
+  background-color: purple;
+  padding: 30px 0 150px 0;
+}
+body main .intro .intro-text {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  color: white;
+}
+body main .intro .intro-text h3 {
+  color: sandybrown;
+}
+body main .workflow {
+  margin-top: -100px;
+}
+body main .workflow .what-i-do {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  border: 2px solid lightblue;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+body main .workflow .what-i-do p {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  margin-bottom: 50px;
+}
+body main .workflow .what-i-do .work-icon {
+  width: 70px;
+  height: 70px;
+  margin-top: 50px;
+}
+body main .workflow .what-i-do .knowledge {
+  list-style-type: none;
+  padding: 0;
+}
+body main .workflow .what-i-do .knowledge li {
+  margin-bottom: 12px;
+}
+body main .workflow .keyframes {
+  display: flex;
+  width: 80%;
+  height: 130px;
+  margin: 0 auto;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+body main .workflow .keyframes #a {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .workflow .keyframes #b {
+  width: 30px;
+  height: 30px;
+  background-color: #3700ff;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .workflow .keyframes #c {
+  width: 30px;
+  height: 30px;
+  background-color: #15ff00;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .workflow .keyframes #d {
+  width: 30px;
+  height: 30px;
+  background-color: #ff00f2;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .workflow .keyframes #e {
+  width: 30px;
+  height: 30px;
+  background-color: #ffee00;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .workflow .keyframes #f {
+  width: 30px;
+  height: 30px;
+  background-color: #00d9ff;
+  border-radius: 50%;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+body main .portfolio {
+  margin-top: 100px;
+}
+body main .portfolio h2 {
+  text-decoration: underline;
+}
+body main .portfolio p {
+  width: 70%;
+  margin: 0 auto;
+}
+body main .portfolio .project {
+  position: relative;
+  width: 70%;
+  height: 300px;
+  margin: 0 auto 0 auto;
+  border-radius: 12px 12px 0 0;
+  box-sizing: border-box;
+}
+body main .portfolio .project .project-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px 12px 0 0;
+}
+body main .portfolio .project .overlay {
+  position: absolute;
+  align-items: center;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 12px 12px 0 0;
+}
+body main .portfolio .project .overlay .overlay-content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 85px auto 0 auto;
+  position: absolute;
+  left: 25%;
+}
+body main .portfolio .project .overlay .overlay-content .overlay-image {
+  width: 50px;
+  height: 50px;
+}
+body main .portfolio .project .overlay .overlay-content h3 {
+  margin-left: 10px;
+  background-color: rgba(224, 255, 49, 0.5);
+  padding: 3px;
+  border-radius: 10px;
+}
+body main .portfolio .project .pop-up {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: transparent;
+  border-radius: 12px 12px 0 0;
+  color: blanchedalmond;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+body main .portfolio .project .pop-up h3 {
+  margin-bottom: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+body main .portfolio .project .pop-up .site {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+body main .portfolio .project .pop-up .site:hover {
+  transform: scale(1.05);
+  border-color: red;
+  cursor: pointer;
+}
+body main .portfolio .project .pop-up .site .anchor {
+  color: white;
+  text-decoration: none;
+  padding: 20px 0;
+}
+body main .portfolio .project .pop-up .site .anchor:hover {
+  color: blue;
+}
+body main .portfolio .project-1 {
+  margin-top: 40px;
+}
+body main .portfolio .project-1 .overlay-1 {
+  background-color: rgba(255, 68, 68, 0.5);
+}
+body main .portfolio .project-2 .overlay-2 {
+  background-color: rgba(55, 90, 243, 0.5);
+}
+body main .portfolio .project-2 .overlay-2 .project-description {
+  margin-top: 15px;
+}
+body main .portfolio .project-3 .overlay-3 {
+  background-color: rgba(21, 255, 0, 0.5);
+}
+body main .portfolio .project-3 .overlay-3 .project-description {
+  margin-top: 15px;
+}
+body main .portfolio .project-4 .overlay-4 {
+  background-color: rgba(240, 52, 240, 0.5);
+}
+body main .portfolio .project-description {
+  background-color: #d0ff00;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto 50px auto;
+  width: 70%;
+  height: auto;
+}
+body main .portfolio .project-description p {
+  margin: 0;
+  padding: 5px 0;
+  width: 95%;
+  margin: 0 auto;
+}
+body .footer-1 {
+  height: 89px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+body .footer-1 .footer-container {
+  width: 95%;
+  display: flex;
+  margin: 0 auto 0 auto;
+}
+body .footer-1 .footer-container h5 {
+  margin-right: auto;
+  color: seashell;
+}
+body .footer-1 .footer-container .social-media {
+  display: flex;
+  align-items: center;
+}
+body .footer-1 .footer-container .social-media .soc-icn {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+body .footer-1 .footer-container .social-media .soc-icn:hover {
+  transition: 1.3s;
+  transform: scale(1.2) rotate(180deg);
+}
+body .footer-1 .footer-container .social-media .soc-icn-gh:hover {
+  transform: rotate(-180deg);
+}
+body .footer-2 {
+  background-color: #f122f1;
+  bottom: 0;
+  padding: 30px 0;
+}
+body .footer-2 h3 {
+  margin: 0;
+  color: skyblue;
+}
+body .footer-2 h3:hover {
+  transition: 1s;
+  text-shadow: 10px -20px wheat;
+  transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  .header-1 .head-div .nav .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  .header-1 .head-div .nav .nav-menu li {
+    margin-right: 50px;
+    transition: 1s;
+  }
+  .header-1 .head-div .nav .nav-menu li:hover {
+    transform: scale(1.2);
+    color: rebeccapurple;
+  }
+
+  main .workflow {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+  main .workflow #what-i-do-1 {
+    border-radius: 30px 0 0 30px;
+    margin-right: 5px;
+    position: relative;
+  }
+  main .workflow #what-i-do-1 .tools {
+    margin-top: 68.5px;
+  }
+  main .workflow #what-i-do-1 .keyframes {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  main .workflow #what-i-do-2 {
+    border-radius: 0 30px 30px 0;
+    margin-left: 5px;
+  }
+  main .portfolio .portfolio-projects {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
+    margin-top: 50px;
+  }
+  main .portfolio .portfolio-projects .project101 {
+    flex-basis: calc(100% / 2);
+    width: 100px;
+  }
+  main .portfolio .portfolio-projects .project101 .project {
+    width: 80%;
+  }
+  main .portfolio .portfolio-projects .project101 .project-description {
+    width: 80%;
+    height: 82px;
+  }
+  main .portfolio .portfolio-projects .project-1 {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
