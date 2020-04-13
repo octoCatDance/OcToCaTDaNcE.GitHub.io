@@ -484,10 +484,15 @@ body{
                         transition: 1.3s;
                         transform: scale(1.2) rotate(180deg);
                     }
+
                 }
 
                 .soc-icn-gh:hover {
                     transform: rotate(-180deg);
+                }
+
+                .soc-icn-in {
+                    border-radius: 12px;
                 }
                 
             }
