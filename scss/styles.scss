@@ -462,28 +462,33 @@ body{
         align-items: center;
 
         .footer-container {
+            display: flex;
             width: 95%;
             display: flex;
-            margin: 0 auto 0 auto;
+            margin: 0 auto;
 
             h5 {
+                align-self: center;
                 margin-right: auto;
                 color: seashell;
             }
     
             .social-media {
+                width: 100%;
                 display: flex;
-                align-items: center;
+                justify-content: space-around;
+                
     
                 .soc-icn {
-                    width: 50px;
-                    height: 50px;
-                    margin-left: 15px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 12px;
 
                     &:hover {
                         transition: 1.3s;
                         transform: scale(1.2) rotate(180deg);
                     }
+
 
                 }
 
@@ -492,8 +497,14 @@ body{
                 }
 
                 .soc-icn-in {
-                    border-radius: 12px;
+
                 }
+
+                .soc-icn-ph {
+                    margin-right: auto;
+                }
+
+                
                 
             }
         }
