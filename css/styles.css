@@ -407,7 +407,7 @@ body .footer-1 .footer-container .social-media .soc-icn:hover {
   transform: scale(1.2) rotate(180deg);
 }
 body .footer-1 .footer-container .social-media div .soc-icn {
-  margin-left: 26px;
+  margin-left: 25px;
 }
 body .footer-1 .footer-container .social-media .soc-icn-gh:hover {
   transform: rotate(-180deg);
