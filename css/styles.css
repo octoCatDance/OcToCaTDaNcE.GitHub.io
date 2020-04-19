@@ -393,7 +393,9 @@ body .footer-1 .footer-container h5 {
 body .footer-1 .footer-container .social-media {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+}
+body .footer-1 .footer-container .social-media #ph {
+  margin-right: auto;
 }
 body .footer-1 .footer-container .social-media .soc-icn {
   width: 40px;
@@ -403,6 +405,9 @@ body .footer-1 .footer-container .social-media .soc-icn {
 body .footer-1 .footer-container .social-media .soc-icn:hover {
   transition: 1.3s;
   transform: scale(1.2) rotate(180deg);
+}
+body .footer-1 .footer-container .social-media div .soc-icn {
+  margin-left: 26px;
 }
 body .footer-1 .footer-container .social-media .soc-icn-gh:hover {
   transform: rotate(-180deg);
