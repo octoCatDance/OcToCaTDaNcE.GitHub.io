@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -56,13 +60,15 @@ body .header-1 .head-div .border-wrap h2 {
   background-color: white;
 }
 body .header-2 {
-  width: 90%;
-  margin: 120px auto 0 auto;
+  padding-top: 100px;
+  background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
 }
 body .header-2 .avatar {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  border: 2px groove red;
+  box-shadow: 10px 10px 10px red;
 }
 body .header-2 .computer {
   display: block;
