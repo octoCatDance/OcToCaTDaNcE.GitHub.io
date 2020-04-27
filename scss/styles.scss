@@ -6,6 +6,15 @@ body{
     text-align: center;
     font-family: 'Lato', sans-serif;
     line-height: 1.3;
+    background-color: seashell;
+
+    #home {
+        width: 100%;
+        height: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
     a {
         text-decoration: none;
@@ -13,7 +22,8 @@ body{
     }
 
     .header-1 {
-        background-color: yellow;
+        // background-color: yellow;
+        background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
         position: fixed;
         width: 100%;
         height: 75px;
@@ -21,6 +31,7 @@ body{
         display: flex;
         align-items: center;
         z-index: 1000;
+        border-radius: 50%;
         
         .head-div {
             display: flex;
@@ -65,11 +76,13 @@ body{
                 background: linear-gradient(to right, red, purple);
                 margin-right: auto;
                 font-family: 'Ubuntu', sans-serif;
+                border-radius: 50%;
 
             h2 {
                 margin: 0;
                 padding: 5px;
-                background-color: white;
+                background-color: seashell;
+                border-radius: 50%;
             }
         }
         }
