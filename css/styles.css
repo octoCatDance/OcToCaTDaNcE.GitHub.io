@@ -6,7 +6,7 @@ body {
   text-align: center;
   font-family: "Lato", sans-serif;
   line-height: 1.31;
-  background-color: seashell;
+  background-color: rgba(15, 255, 207, 1);
 }
 body #home {
   width: 100%;
